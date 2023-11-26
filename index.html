@@ -7,183 +7,23 @@
     <title>Gireesh Sachdev - My Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            background-color: rgb(6, 6, 94);
-            color: white;
-            font-family: 'Poppins', sans-serif;
-        }
-
-        nav {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            height: 80px;
-            background-color: rgb(4, 4, 48);
-        }
-
-        nav ul {
-            display: flex;
-            justify-content: center;
-        }
-
-        nav ul li {
-            list-style: none;
-            margin: 0 23px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: white;
-        }
-
-        nav ul li a:hover {
-            color: rgb(128, 128, 255);
-        }
-
-        main hr {
-            border: 0;
-            background-color: rgb(128, 128, 255);
-            height: 1px;
-            margin: 40px 84px;
-
-        }
-
-        .left {
-            font-size: 1.5rem;
-        }
-
-        .firstSection {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            margin: 40px 0;
-        }
-
-        .firstSection>div {
-            width: 30%;
-        }
-
-        .leftSection {
-            font-size: 2rem;
-        }
-
-        .leftSection .buttons{
-            padding: 30px 0;
-        }
-
-        .leftSection .btn {
-            padding: 12px;
-            background: #1e2167;
-            color: white;
-            border: 2px solid white;
-            border-radius: 6px;
-            font-size: 13px;
-            cursor: pointer;
-        }
-
-        .rightSection img {
-            width: 110%;
-        }
-
-        .purple {
-            color: rgb(128, 128, 255);
-        }
-
-        #element {
-            color: rgb(128, 128, 255);
-        }
-
-        .secondSection {
-            max-width: 80vw;
-            margin: auto;
-            height: 80vh;
-        }
-
-        .secondSection h1 {
-            font-size: 1.5rem;
-        }
-
-        .secondSection .box {
-            background-color: white;
-            width: 77vw;
-            height: 2px;
-            margin: 70px 0;
-            display: flex;
-        }
-
-        .secondSection .vertical {
-            height: 93px;
-            width: 1px;
-            background-color: white;
-            margin: 0 120px;
-        }
-
-        .image-top {
-            width: 30px;
-            position: relative;
-            top: -35px;
-            left: -9px;
-        }
-
-        .vertical-title {
-            position: relative;
-            top: 75px;
-            width: 150px;
-            font-size: 14px;
-        }
-
-        .vertical-desc {
-            position: relative;
-            top: 86px;
-            color: gray;
-            width: 150px;
-            font-size: 9px;
-        }
-
-        footer {
-            background-color: #0e0e1a;
-        }
-
-        .footer {
-            display: flex;
-            padding: 23px 122px;
-            justify-content: space-evenly;
-        }
-
-        .footer ul {
-            list-style: none;
-        }
-
-        .footer > div{
-            width: 223px;
-        }
-
-        footer .footer-rights {
-            text-align: center;
-            color: gray;
-            padding: 12px 0;
-        }
-    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
     <header>
         <nav>
-            <div class="left">Gireesh's Portfolio</div>
+            <div class="left">Gireesh.</div>
             <div class="right">
                 <ul>
                     <li><a href="/">Home</a></li>
-                    <li><a href="/">About</a></li>
-                    <li><a href="/">Services</a></li>
-                    <li><a href="/">Projects</a></li>
-                    <li><a href="/">Contact Me</a></li>
+                    <li><a href="#about-section">About Me</a></li>
+                    <li><a href="#work_experience-section">Work Experience</a></li>
+                    <li><a href="#projects-section">Projects</a></li>
+                    <li><a href="https://mail.google.com/mail/?view=cm&to=gireeshsachdev5@gmail.com"
+                            target="_blank">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
@@ -196,8 +36,10 @@
                 <div>And I love to</div>
                 <span id="element"></span>
                 <div class="buttons">
-                    <button class="btn">Download Resume</button>
-                    <button class="btn">My Github Profile</button>
+                    <button class="btn"><a href="Gireesh Sachdev - CV.pdf" download="Gireesh Sachdev - CV.pdf"
+                            target="_blank">Download Resume</a></button>
+                    <button class="btn"><a href="https://github.com/gireeshsachdev" target="_blank">My Github
+                            Profile</a></button>
                 </div>
             </div>
             <div class="rightSection">
@@ -208,41 +50,95 @@
 
         <hr>
 
-        <section class="secondSection">
-            <span></span>
-            <h1>Work Experience</h1>
+        <section class="secondSection" id="about-section">
+            <h1>About Me</h1>
+            <br>
+            <div class="text">
+                A BSCS student at DHA Suffa University with academic excellence and a drive to learn. Gaining skills in
+                programming with languages like Python, Java, and Dart, while exploring app development with Flutter.
+                Eager to excel in App Development roles.
+            </div>
 
+        </section>
+
+        <hr>
+
+        <section class="thirdSection" id="work_experience-section">
+            <h1>Work Experience</h1>
             <div class="box">
                 <div class="vertical">
                     <img class="image-top" src="appsalesman.png" alt="">
                     <div class="vertical-title">
-                        Sales Executive for Mobile Apps <br> (2023-present)
+                        Sales Executive for Mobile Apps <br> (2023 - present)
                     </div>
                     <div class="vertical-desc">
-                        Driving revenue through strategic client engagement and delivering tailored mobile solutions in a dynamic market landscape.
+                        Driving revenue through strategic client engagement and delivering tailored mobile solutions in
+                        a dynamic market landscape.
                     </div>
                 </div>
             </div>
         </section>
+
+        <hr>
+
+        <section class="fourthSection" id="projects-section">
+            <h1>Projects</h1>
+
+            <div class="project-container">
+                <div class="project-box">
+                    <h2 class="project-heading">Snake Xenzia</h2>
+                    <p class="project-text">
+                        Snake Xenzia is a classic snake game implemented in Python using the Turtle graphics library.
+                        It brings the nostalgic joy of the iconic mobile game right to your computer.
+                        In this game, players control a snake that grows longer as it consumes food while avoiding
+                        collisions with the walls and its own tail.
+                    </p>
+                    <img src="snakegame.png" alt="" class="project-image">
+                    <a href="https://github.com/gireeshsachdev/Snake-Xenzia" target="_blank">
+                        <img src="github-logo.png" alt="GitHub Repo" class="github-logo">
+                        <p class="visit-github">Visit Github Repo</p>
+                    </a>
+                </div>
+
+
+                <div class="project-box">
+                    <h2 class="project-heading">Turtle Racing Game</h2>
+                    <br>
+                    <p class="project-text">Turtle Racing is a Python project featuring Turtle graphics, offering a nostalgic thrill of betting on turtles. Place your bet, witness the race, and discover if your chosen turtle emerges victorious. Experience interactive fun — click to exit after the race!</p>
+                    <br>
+                    <img src="turtlegame.png" alt="" class="project-image">
+                    <a href="https://github.com/gireeshsachdev/Turtle-Racing-Game" target="_blank">
+                        <img src="github-logo.png" alt="GitHub Repo" class="github-logo">
+                        <p class="visit-github">Visit Github Repo</p>
+                    </a>
+                </div>
+
+
+            </div>
+
+
+        </section>
+
+
     </main>
 
     <footer>
         <div class="footer">
             <div class="footer-first">
-                <h3>Gireesh's Portfolio</h3>
+                <h3>Gireesh.</h3>
             </div>
             <div class="footer-second">
                 <ul>
                     <li>Home</li>
-                    <li>About</li>
-                    <li>Services</li>
+                    <li>About Me</li>
+                    <li>Work Experience</li>
                     <li>Projects</li>
                     <li>Contact Me</li>
                 </ul>
             </div>
         </div>
         <div class="footer-rights">
-            Copyright © 2023 <br> www.gireeshsachdev.com | All rights reserved 
+            Copyright © 2023 <br> www.gireeshsachdev.com | All rights reserved
         </div>
     </footer>
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
@@ -250,7 +146,8 @@
     <script>
         var typed = new Typed('#element', {
             strings: ["Code", "play Football", "watch Anime", "and read Books."],
-            typeSpeed: 50,
+            typeSpeed: 100,
+            loop: true
         });
     </script>
 

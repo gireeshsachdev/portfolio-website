@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(6, 6, 94);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    background-color: rgb(4, 4, 48);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0 23px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+nav ul li a:hover {
+    color: rgb(128, 128, 255);
+}
+
+main hr {
+    border: 0;
+    background-color: rgb(128, 128, 255);
+    height: 1px;
+    margin: 40px 84px;
+
+}
+
+.left {
+    font-size: 1.5rem;
+    font-family: 'Press Start 2P', sans-serif;
+}
+
+.firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 40px 0;
+}
+
+.firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2rem;
+}
+
+.leftSection .buttons {
+    padding: 30px 0;
+}
+
+.leftSection .btn {
+    padding: 12px;
+    background: #1e2167;
+    color: white;
+    border: 2px solid white;
+    border-radius: 6px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.rightSection img {
+    width: 110%;
+}
+
+.purple {
+    color: rgb(128, 128, 255);
+}
+
+#element {
+    color: rgb(128, 128, 255);
+}
+
+.secondSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.thirdSection {
+    max-width: 80vw;
+    margin: auto;
+    height: 65vh;
+}
+
+.thirdSection h1 {
+    font-size: 1.5rem;
+}
+
+.thirdSection .box {
+    background-color: white;
+    width: 77vw;
+    height: 2px;
+    margin: 70px 0;
+    display: flex;
+}
+
+.thirdSection .vertical {
+    height: 93px;
+    width: 1px;
+    background-color: white;
+    margin: 0 120px;
+}
+
+.image-top {
+    width: 35px;
+    position: relative;
+    top: -45px;
+    left: -13px;
+}
+
+.vertical-title {
+    position: relative;
+    top: 75px;
+    right: 75px;
+    width: 150px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.vertical-desc {
+    position: relative;
+    top: 86px;
+    right: 60px;
+    color: gray;
+    width: 150px;
+    font-size: 11px;
+}
+
+.fourthSection {
+    max-width: 80vw;
+    margin: auto;
+}
+
+.fourthSection .project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 25px;
+}
+
+.fourthSection .project-box {
+
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin: 10px;
+    max-width: 410px;
+    text-align: center;
+}
+
+.fourthSection .project-image {
+    max-width: 100%;
+    height: auto;
+}
+
+.fourthSection .project-heading {
+    padding: 4px;
+}
+
+.fourthSection .project-text {
+    text-align: justify;
+    padding: 20px;
+}
+
+.fourthSection .github-logo {
+    max-width: 30px;
+    height: auto;
+    margin: 15px 0px 0px 0px;
+}
+
+.fourthSection .visit-github {
+    color: white;
+}
+
+footer {
+    background-color: #0e0e1a;
+}
+
+.footer {
+    display: flex;
+    padding: 23px 122px;
+    justify-content: space-evenly;
+}
+
+.footer ul {
+    list-style: none;
+}
+
+.footer>div {
+    width: 223px;
+}
+
+.footer-first {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 0.8rem;
+}
+
+.footer-second{
+    text-align: center;
+}
+
+footer .footer-rights {
+    text-align: center;
+    color: gray;
+    padding: 12px 0;
+}
