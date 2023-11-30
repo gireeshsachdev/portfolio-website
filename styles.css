@@ -81,6 +81,7 @@ main hr {
 .btn a {
     text-decoration: none;
     color: #fff;
+    font-family: 'Poppins', sans-serif;
 }
 
 .rightSection img {
